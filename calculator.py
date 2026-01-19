@@ -22,7 +22,7 @@ class CalculatorApp:
         col = 0
         for button in buttons:
             if button == '=':
-                tk.Button(root, text=button, font=("Arial", 18), command=self.calculate).grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
+                tk.Button(root, text=button, font=("Times", 18), command=self.calculate).grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
             elif button == 'C':
                 tk.Button(root, text=button, font=("Arial", 18), command=self.clear).grid(row=row, column=col, padx=5, pady=5, sticky="nsew")
             else:
